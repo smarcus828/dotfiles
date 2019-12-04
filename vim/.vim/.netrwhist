@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/smarcus/ansible/playbooks/zabbix/host_vars'
+let g:netrw_dirhist_2='/home/smarcus/ansible/playbooks/zabbix/host_vars/zabbix-dev.cicsnc.org'
+let g:netrw_dirhist_3='/home/smarcus/ansible/playbooks/zabbix_agent/group_vars/all'
