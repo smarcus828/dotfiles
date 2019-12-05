@@ -1,1 +1,2 @@
-My dotfiles and Stuff
+#My dotfiles and Stuff
+needs oh-my-zsh
