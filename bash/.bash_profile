@@ -64,4 +64,4 @@ fi
 if (($NUMUSE > 1 )); then
 echo -e "${PURPLE}*** YOU ARE NOT ALONE ***\n$(w | tail -n +3 | awk '{print $1}')${NORMAL}"
 fi
-
+zsh
