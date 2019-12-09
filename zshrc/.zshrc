@@ -4,9 +4,19 @@
 # Path to your oh-my-zsh installation.
 #export ZSH="~/.oh-my-zsh"
 ### for MACOS ###
-export ZSH="/Users/smarcus/.oh-my-zsh"
+#export ZSH="/Users/smarcus/.oh-my-zsh"
 ### for Linux ###
+#export ZSH="/home/smarcus/.oh-my-zsh"
+
+#ZZZ=$(uname -s)
+#echo ${ZZZ}
+#if [[ "${ZZZ}" == "Darwin" ]]; then
+if [[ "$(uname -s)" == "Darwin" ]]; then
+export ZSH="/Users/smarcus/.oh-my-zsh"
+else
 export ZSH="/home/smarcus/.oh-my-zsh"
+fi
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
