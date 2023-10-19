@@ -1,8 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='~/ansible/playbooks/zabbix/host_vars'
 let g:netrw_dirhist_2='~/ansible/playbooks/zabbix/host_vars/zabbix-dev.cicsnc.org'
 let g:netrw_dirhist_3='~/ansible/playbooks/zabbix_agent/group_vars/all'
 let g:netrw_dirhist_4='/home/smarcus/ansible/playbooks/zabbix/host_vars/zabbix-dev.cicsnc.org'
 let g:netrw_dirhist_5='/etc/yum.repos.d'
 let g:netrw_dirhist_6='/home/smarcus/ansible/roles/ad_redhat/tasks'
+let g:netrw_dirhist_7='/home/smarcus/.dotfiles/oh-my-zsh/.oh-my-zsh/plugins/common-aliases'
+let g:netrw_dirhist_8='/home/smarcus/ansible/playbooks/swarm/host_vars'
+let g:netrw_dirhist_9='/home/smarcus/ansible/playbooks/swarm/host_vars/swarm2.cicsnc.org'

@@ -137,6 +137,7 @@ YELLOW="\e[1;49;33m"
 WHITE="\e[1;49;37m"
 
 alias cda='cd ~/ansible'
+alias s='openssl x509 -noout -text -in '
 #PS1="%{%F{red}%}%n%{%f%}@%{%F{blue}%}%m %{%F{yellow}%}%~ %{$%f%}%% "
 #PS1="${CYAN}\h:${GREEN}\w$ ${NORMAL}"
 

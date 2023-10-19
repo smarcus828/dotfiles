@@ -27,6 +27,7 @@ WHITE="\e[1;49;37m"
 
 ###  Aliases  ##########################
 alias cda='cd ~/ansible'
+alias s='openssl x509 -noout -text -in '
 
 ###  Set up prompt ######################
 NUMUSE=$(who | wc -l)
