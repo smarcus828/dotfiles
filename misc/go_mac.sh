@@ -8,5 +8,5 @@ sudo chown -R smarcus /usr/local/share/zsh
 git config --global user.name "Steven Marcus"
 git config --global user.email "smarcus@cicsnc.org"
 
-brew install stow zsh tree vim wget ncdu pgp pine iterm2
+brew install stow zsh tree vim wget ncdu gpg pine iterm2
 

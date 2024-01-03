@@ -1,4 +1,6 @@
 create user smarcus
 make smarcus local admin - reboot
 install git
+install jonathan's ovirt console from
+https://drive.google.com/file/d/0ByybcKL8LkUAczZIWmhfODgtRGs/view?usp=drive_link&resourcekey=0-yRckzpxwYhE4Ze4lvVppjA
 
