@@ -1,0 +1,4 @@
+create user smarcus
+make smarcus local admin - reboot
+install git
+
