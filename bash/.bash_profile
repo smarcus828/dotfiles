@@ -49,7 +49,9 @@ UP="${RED}$(uptime | awk '{print $2 " " $3 " " $4}')"
 fi
 
 #### Print redhat-release  #############
-echo -e "${CYAN}$(cat /etc/redhat-release) ${NORMAL}"
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+	echo -e "${CYAN}$(cat /etc/redhat-release) ${NORMAL}"
+fi
 
 ####  PROMPT  ###########################
 PS1="${CYAN}\h:${GREEN}\w$ ${NORMAL}"
